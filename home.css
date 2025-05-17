@@ -1,0 +1,25 @@
+.home-content {
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.home-content h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.home-content h2 {
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+.home-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.home-content li {
+    font-size: 18px;
+    margin: 10px 0;
+}
