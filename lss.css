@@ -10,6 +10,7 @@ body {
 }
 
 .navbar ul {
+    size: 10pt;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -24,7 +25,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 13px;
     display: block;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -90,21 +91,21 @@ input:hover {
     font-weight: bold;
 }
 #text {
-    font-size: 30pt;
-    size: 50pt;
+    font-size: 10pt;
+    size: 10pt;
     border-color: white;
     border: solid;
     position: relative;
-    left: 10pt;
+    left: -50pt;
     top: 130pt;
-    font-weight: lighter;
+    font-weight: bold;
 
 }
 button {
     color: black;
     position: relative;
-    left: 400pt;
-    font-size: 30pt;
+    left: 80pt;
+    font-size: 20pt;
     border-radius: 10pt;
     background-color: #4CAF50;
     color: white;
@@ -137,4 +138,9 @@ option:hover {
 .div1 {
     position: relative;
     bottom: 70pt;
+}
+#lsspic{
+    size: 100pt;
+    width: auto;
+    height: 450pt;
 }
