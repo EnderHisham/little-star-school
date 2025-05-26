@@ -7,7 +7,6 @@ body {
 .navbar {
     background-color: #4CAF50; /* Green background */
     overflow: hidden;
-      right: 0;
 }
 
 .navbar ul {
@@ -26,7 +25,7 @@ body {
 .navbar a {
     text-decoration: none;
     color: white;
-    font-size: 10pt;
+    font-size: 13px;
     display: block;
     text-align: center;
     transition: background-color 0.3s ease;
@@ -140,8 +139,12 @@ option:hover {
     position: relative;
     bottom: 70pt;
 }
-#lsspic{
-    size: 100pt;
+.divpic{
+    size: auto;
     width: auto;
-    height: 450pt;
+    height: auto;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
