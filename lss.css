@@ -93,7 +93,6 @@ input:hover {
     font-weight: bold;
 }
 #text {
-    rotate:0deg;
     font-size: 10pt;
     size: 10pt;
     border-color: white;
@@ -157,21 +156,21 @@ img {
     height: 100pt;
     font-size:xx-large;
     color: #45a049;
-    rotate: 45deg;
-    position: relative;
-    right: 75pt;
     border-radius: 35pt;
-    bottom: 800pt;
-    animation:mymove 5s forwards;
+    position: absolute;
+    top: 200px;   /* better than using bottom: 800pt */
+    left: 0;
+    animation: mymove 5s forwards;
 }
+
 @keyframes mymove {
-    0% {right: 0px;}
-    10% {left: 50px;}
-    30% {left: 100px;}
-    50% {transform: rotate(360deg); left: 200px;}
-    100% {left: 1200px;}
-    
-  }
+    0% { left: 0; }
+    25% { left: 150px; }
+    50% { left: 300px; transform: rotate(180deg); }
+    75% { left: 500px; }
+    100% { left: 1200px; transform: rotate(360deg); }
+}
+
   #jsp {
     rotate: 0deg;
     position: relative;
@@ -183,3 +182,4 @@ img {
     animation: font 5s forwards;
     color: crimson;
 }
+
