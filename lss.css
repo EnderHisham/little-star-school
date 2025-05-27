@@ -93,6 +93,7 @@ input:hover {
     font-weight: bold;
 }
 #text {
+    rotate:0deg;
     font-size: 10pt;
     size: 10pt;
     border-color: white;
