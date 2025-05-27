@@ -163,14 +163,6 @@ img {
     animation: mymove 5s forwards;
 }
 
-@keyframes mymove {
-    0% { left: 0; }
-    25% { left: 150px; }
-    50% { left: 300px; transform: rotate(180deg); }
-    75% { left: 500px; }
-    100% { left: 1200px; transform: rotate(360deg); }
-}
-
   #jsp {
     rotate: 0deg;
     position: relative;
