@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -50,6 +51,7 @@ header {
     color:  rgb(0, 98, 0);
     text-align: center;
     position: relative;
+    
 }
 p {
     padding: 20pt;
@@ -66,6 +68,18 @@ p {
 }
 #a1 {
 color: blue;
+}
+#a3{
+    font-weight: bold;
+    background-color: rgb(243, 241, 241);
+    position: relative;
+    bottom: 3em;
+    font-size: x-large;
+    color: #4CAF50;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
 }
 h6 {
  text-align: center;
@@ -161,6 +175,15 @@ img {
     top: 200px;   /* better than using bottom: 800pt */
     left: 0;
     animation: mymove 5s forwards;
+    animation-timing-function: ease;
+}
+
+@keyframes mymove {
+    0% { left: 0; }
+    25% { left: 150px; transform: rotate(80deg);}
+    50% {  transform: rotate(180deg); }
+    75% {   transform: rotate(260deg);}
+    100% { left: 1800px; transform: rotate(360deg); }
 }
 
   #jsp {
@@ -174,4 +197,3 @@ img {
     animation: font 5s forwards;
     color: crimson;
 }
-
